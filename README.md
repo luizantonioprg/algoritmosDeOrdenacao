@@ -10,6 +10,6 @@ para ordenar.
  - Clique em "Exportar" e abra o arquivo que será baixado.
 
 - Bibliotecas usadas:
-SheetJS
-Jquery
+SheetJS,
+Jquery.
 
