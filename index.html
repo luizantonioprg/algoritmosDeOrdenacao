@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>TP</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="pai">
+
+        <div class="filho1">
+            <div class="laranja" id="vel" onclick="mostrarVelocidade();"></div>
+            <div id="navbar">
+                <span>Ordenação de Dados com Bubble e Insertion Sort </span>
+            </div>
+
+            <div id="wrapper">
+                <input type="file" id="input-excel" />
+                <div id="demo"></div>
+            </div>
+
+            <div class="botoes">
+                <button id="botao">ENVIAR</button>
+                <button id="button-a">EXPORTAR</button>
+            </div>
+
+
+        </div>
+        <div class="filho2" id="filho2">
+            <div class="texto">
+                <h1>BUBBLE SORT</h1>
+                <h3 id="tempoBub"></h3>
+               <!-- <h4 id="arrayBub"></h4> -->
+
+                <h1>INSERTION SORT</h1>
+                <h3 id="tempoIns"></h3>
+               <!-- <h4 id="arrayIns"></h4> -->
+            </div>
+
+
+
+        </div>
+    </div>
+    <h3 id="download">Faça download da tabela!<br><a href="tabelinha.xlsx">tabela</a></h3>
+
+    <script lang="javascript" src="FileSaver.js"></script>
+    <script lang="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.1/xlsx.full.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

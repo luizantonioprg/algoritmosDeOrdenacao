@@ -1,0 +1,117 @@
+/* style.css */
+
+    body{
+background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: white;
+font-family: 'Bowlby One SC', cursive;
+}
+
+.pai{
+display: flex;
+
+}
+.filho1{
+width: 100vw;
+height: 100vh;
+text-align: center;
+}
+#filho2{
+width: 100vw;
+height: 100vh;
+background: yellow;
+display: none;
+text-align: center;
+color: orange!important;
+}
+h1{
+display: inline-block;
+margin: 0;
+padding: 0;
+}
+
+.texto{
+text-align: center;
+max-width: 300px;
+margin: 0 auto;
+margin-top: 10vh;
+}
+    span{
+text-align: center;
+margin: 0 auto;
+display: block;
+max-width: 450px;
+font-size: 30px;
+
+}
+    #wrapper{
+max-width: 400px;
+margin: 0 auto;
+margin-top: 5vh;
+text-align: center;
+
+}
+h3{
+font-family: "Comic Sans MS","cursive";
+}
+    button{
+border-radius: 50px;
+border: none;
+background: rgba(255,255,255,0.5);
+color: white;
+font-family: 'Bowlby One SC', cursive;
+padding: 10px;
+font-size: 20px;
+margin-top: 4vh;
+margin-bottom: 2vh;
+cursor: pointer;
+
+}
+    table{
+margin: 0 auto;
+font-size: 50px;
+font-family: "Comic Sans MS","cursive";
+max-width: 100px;
+margin-top: 5vh;
+
+
+
+}
+
+    td{
+border:solid 5px white;
+border-top-left-radius: 20px;
+min-width:100px;
+height:100px;
+text-align: center;
+transition: .5s;
+}
+td:hover{
+transform: rotate(360deg);
+color: black;
+background: white;
+}
+    .botoes{
+
+max-width: 250px;
+margin: 0 auto;
+text-align: center;
+}
+button:hover{
+transform: rotate(10deg);
+}
+#botao,#button-a{
+ display: none;
+    
+}
+.laranja{
+width: 20px;
+height: 20px;
+background: white;
+border-radius: 100%;
+float: right;
+cursor: pointer;
+
+}
